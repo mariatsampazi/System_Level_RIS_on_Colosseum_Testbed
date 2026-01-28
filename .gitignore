@@ -1,0 +1,37 @@
+# Ignore macOS files
+.DS_Store
+
+# Ignore EPS files
+*.eps
+
+Mobility-backup-smartcomp
+Performance_Evaluation_SMARTCOMP21
+*.jpg
+*.png
+
+colosseum_scenario_.m
+finalPGsElems_mmwave.m
+ris_to_uav_rev_sub6.m
+ris_to_uav_rev_mmwave.m
+evaluation_plotters_rev.m
+final_path_gains_REV1.m
+final_pgs_rev_elements.m
+user_to_ris_static_rev1_mmwave.m
+user_to_ris_static_sub6_rev1.m
+soa_utilities.m
+Colosseum_RIS_mobility.m
+withoutRIS_and_withMOBILITY.m
+withRIS_and_withMOBILITY.m
+test.m
+soa_better2.m
+soa.m
+soa_better.m
+random_walk_quadriga.m
+final_pgs3.m
+final_PGs_conf2.m
+final_PGs_conference.m
+
+# Ignore .mat files except in MAT_FILES_total_comparison
+*.mat
+!MAT_FILES_total_comparison/*.mat
+!MAT_FILES_total_comparison/**/*.mat
